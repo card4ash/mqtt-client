@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MqttClient", "MqttClient\MqttClient.csproj", "{9E6C39EB-A5FE-4252-A791-8F5D1196CCB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MQTT.Client", "MQTT.Client\MQTT.Client.csproj", "{A7E4A6C5-5656-4F9A-A0D6-8501184F1293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App.Logging", "Logging\App.Logging.csproj", "{621F56A4-F36B-410D-AD8E-43154B2D7231}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E6C39EB-A5FE-4252-A791-8F5D1196CCB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E6C39EB-A5FE-4252-A791-8F5D1196CCB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E6C39EB-A5FE-4252-A791-8F5D1196CCB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E6C39EB-A5FE-4252-A791-8F5D1196CCB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7E4A6C5-5656-4F9A-A0D6-8501184F1293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7E4A6C5-5656-4F9A-A0D6-8501184F1293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7E4A6C5-5656-4F9A-A0D6-8501184F1293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7E4A6C5-5656-4F9A-A0D6-8501184F1293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{621F56A4-F36B-410D-AD8E-43154B2D7231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{621F56A4-F36B-410D-AD8E-43154B2D7231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{621F56A4-F36B-410D-AD8E-43154B2D7231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{621F56A4-F36B-410D-AD8E-43154B2D7231}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFF10C68-278F-4873-A8D1-87FD280B4F2A}
+	EndGlobalSection
+EndGlobal
